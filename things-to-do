@@ -1,0 +1,76 @@
+firefox:
+  File → Preferences → General 
+   → When Firefox &starts: Show my windows and tabs from last time
+  install pentadactyl
+windows explorer:
+  &Tools → Folder &options → View
+    ✓ Show hidden files, folders, and drives
+    - Hide extensions for known file types
+    ✓ Use check boxes to select items
+    - Use Sharing Wizard (Recommeneded)
+    ✓ Always show icons, never thumbnails
+turn off autoplay for all: Control panel -> AutoPlay 
+disable thumbs - gpedit.msc
+  user configuration -> administrative templates -> windows components ->
+    windows explorer
+  enable 'Turn off the caching of thumbnails in hidden thumbs.db files'
+  logout? or reboot
+  This stops creating them? - maybe only if we don't need them.
+  FIXME this doesn't work. the icons bit above is what's important?
+
+cygwin:
+  install:
+  emacs
+  emacs-win
+  vim
+  perl
+  ruby
+  chere
+  pwgen
+  ssh
+  zip
+  unzip
+  p7zip
+  libiconv
+  bvi
+  git
+  wget
+  curl
+  make
+
+  Control Panel -> Environmental Variables -> &New
+    HOME = %USERPROFILE%
+  # the next two should be run with -D flag if on a domain
+  mkpasswd -l -p $(cygpath -H) >/etc/password
+  mkgroup -l >/etc/group
+
+  ssh-keygen
+
+clone dotfiles FIXME this is currently a mess
+authorize machine on github
+authorize machine on one of my systems, or authorize my system on machine
+copy over pwsafe safe
+get my github stuff:
+  mkdir ~/src
+  cd ~/src
+  git clone git@github.com:nbirnel/tftw
+  git clone git@github.com:nbirnel/xmouse
+vim
+  to add ruby:
+  install ruby 2.0, *adding bin directory to your path*
+  install vim
+  replace vim.exe and gvim.exe with those from Wu Yongwei:
+    http://wyw.dcweb.cn/
+    http://wyw.dcweb.cn/download.asp?path=vim&file=gvim74.zip
+7zip
+autohotkey - http://ahkscript.org/download/ahk-install.exe
+swap-esc-caps, alt-control
+synergy
+deja-vu fonts:
+  wget http://downloads.sourceforge.net/project/dejavu/dejavu/2.34/dejavu-fonts-ttf-2.34.zip && \
+  unzip dejavu-fonts-ttf-2.34.zip
+  double click each and install,
+  or pull out of zip file, then right click and install
+greenshot:
+  wget http://downloads.sourceforge.net/project/greenshot/Greenshot/Greenshot\ 01.1/Greenshot-INSTALLER-1.1.7.17.exe
+  accept all defaults except 'install imjur plugin'
