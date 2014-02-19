@@ -20,23 +20,24 @@ disable thumbs - gpedit.msc
 
 cygwin:
   install:
-  emacs
-  emacs-win
-  vim
-  perl
-  ruby
-  chere
-  pwgen
-  ssh
-  zip
-  unzip
-  p7zip
-  libiconv
-  bvi
-  git
-  wget
-  curl
-  make
+    emacs
+    emacs-win
+    vim
+    perl
+    ruby
+    chere
+    pwgen
+    ssh
+    zip
+    unzip
+    p7zip
+    libiconv
+    bvi
+    git
+    wget
+    curl
+    make
+    bc
 
   Control Panel -> Environmental Variables -> &New
     HOME = %USERPROFILE%
