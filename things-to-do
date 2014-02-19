@@ -1,3 +1,4 @@
+vim: sw=2
 firefox:
   File → Preferences → General 
    → When Firefox &starts: Show my windows and tabs from last time
@@ -75,3 +76,4 @@ deja-vu fonts:
 greenshot:
   wget http://downloads.sourceforge.net/project/greenshot/Greenshot/Greenshot\ 01.1/Greenshot-INSTALLER-1.1.7.17.exe
   accept all defaults except 'install imjur plugin'
+
