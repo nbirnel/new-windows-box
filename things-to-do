@@ -1,3 +1,4 @@
+vim: sw=2
 firefox:
   File → Preferences → General 
    → When Firefox &starts: Show my windows and tabs from last time
@@ -20,23 +21,24 @@ disable thumbs - gpedit.msc
 
 cygwin:
   install:
-  emacs
-  emacs-win
-  vim
-  perl
-  ruby
-  chere
-  pwgen
-  ssh
-  zip
-  unzip
-  p7zip
-  libiconv
-  bvi
-  git
-  wget
-  curl
-  make
+    emacs
+    emacs-win
+    vim
+    perl
+    ruby
+    chere
+    pwgen
+    ssh
+    zip
+    unzip
+    p7zip
+    libiconv
+    bvi
+    git
+    wget
+    curl
+    make
+    bc
 
   Control Panel → Environmental Variables → &New
     HOME = %USERPROFILE%
@@ -75,3 +77,4 @@ deja-vu fonts:
 greenshot:
   wget http://downloads.sourceforge.net/project/greenshot/Greenshot/Greenshot\ 01.1/Greenshot-INSTALLER-1.1.7.17.exe
   accept all defaults except 'install imjur plugin'
+
