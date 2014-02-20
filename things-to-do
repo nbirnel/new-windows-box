@@ -9,9 +9,9 @@ windows explorer:
     ✓ Use check boxes to select items
     - Use Sharing Wizard (Recommeneded)
     ✓ Always show icons, never thumbnails
-turn off autoplay for all: Control panel -> AutoPlay 
+turn off autoplay for all: Control panel → AutoPlay 
 disable thumbs - gpedit.msc
-  user configuration -> administrative templates -> windows components ->
+  user configuration → administrative templates → windows components →
     windows explorer
   enable 'Turn off the caching of thumbnails in hidden thumbs.db files'
   logout? or reboot
@@ -38,7 +38,7 @@ cygwin:
   curl
   make
 
-  Control Panel -> Environmental Variables -> &New
+  Control Panel → Environmental Variables → &New
     HOME = %USERPROFILE%
   # the next two should be run with -D flag if on a domain
   mkpasswd -l -p $(cygpath -H) >/etc/password
@@ -53,8 +53,9 @@ copy over pwsafe safe
 get my github stuff:
   mkdir ~/src
   cd ~/src
-  git clone git@github.com:nbirnel/tftw
-  git clone git@github.com:nbirnel/xmouse
+  for i in tftw xmouse vikeys bugn; do
+    githubfetch $i
+  done
 vim
   to add ruby:
   install ruby 2.0, *adding bin directory to your path*
@@ -64,7 +65,7 @@ vim
     http://wyw.dcweb.cn/download.asp?path=vim&file=gvim74.zip
 7zip
 autohotkey - http://ahkscript.org/download/ahk-install.exe
-swap-esc-caps, alt-control
+swap-esc-caps, alt-control (part of vikeys)
 synergy
 deja-vu fonts:
   wget http://downloads.sourceforge.net/project/dejavu/dejavu/2.34/dejavu-fonts-ttf-2.34.zip && \
