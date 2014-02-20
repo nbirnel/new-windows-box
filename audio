@@ -1,4 +1,24 @@
+vim: sw=2
 audacity
+finale notepad
 
 sox
-http://downloads.sourceforge.net/project/sox/sox/14.4.1/sox-14.4.1-win32.exe
+  http://downloads.sourceforge.net/project/sox/sox/14.4.1/sox-14.4.1-win32.exe
+
+synths:
+synfactory (end of lifed, but perfectly usable)
+  http://syntiac.com/zips/synfactory116rc1.zip
+praat ? 
+ZynAddSubFx
+  http://downloads.sourceforge.net/project/zynaddsubfx/zynaddsubfx/2.2.0/Setup_ZynAddSubFX-2.2.0.exe
+
+csound
+
+traverso: (appears to be a dead project as of 2010)
+  http://traverso-daw.org/traverso-unstable-for-windows.html&d=Traverso-git-01-11-2010.exe
+
+cygwin;
+  sox
+  lilypond
+  timidity++
+
