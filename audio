@@ -6,8 +6,13 @@ sox
   http://downloads.sourceforge.net/project/sox/sox/14.4.1/sox-14.4.1-win32.exe
 
 synths:
+SoftSynt
+  http://syntiac.com/zips/softsynt101.zip
 synfactory (end of lifed, but perfectly usable)
   http://syntiac.com/zips/synfactory116rc1.zip
+StudioFactory (backwards compatible successor to synfactory)
+  http://syntiac.com/zips/studiofactory044win32.zip
+  http://syntiac.com/zips/studiofactory_en042.pdf
 praat ? 
 ZynAddSubFx
   http://downloads.sourceforge.net/project/zynaddsubfx/zynaddsubfx/2.2.0/Setup_ZynAddSubFX-2.2.0.exe
@@ -22,3 +27,11 @@ cygwin;
   lilypond
   timidity++
 
+Kristal Audio Engine appears dead, but refers to:
+PreSonus Studio One
+http://www.presonus.com/products/studio-one/download
+https://www.presonus.com/downloads/studioone/free/win64
+
+Wavosaur
+http://www.wavosaur.com/download/manual/Wavosaur-quick-start-guide-v1.0.2.0.zip
+http://www.wavosaur.com/download/files/Wavosaur.1.1.0.0-x64(en).zip
