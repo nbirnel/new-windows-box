@@ -3,3 +3,6 @@ cygwin
 
 should I use rvm, or what?
 
+gem install cucumber
+ need gcc, crypt or libcrypt-devel (or both?), maybe automake
+
