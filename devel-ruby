@@ -1,0 +1,5 @@
+cygwin 
+  gem install rspec
+
+should I use rvm, or what?
+
