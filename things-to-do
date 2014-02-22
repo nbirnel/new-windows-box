@@ -40,6 +40,8 @@ cygwin:
     make
     bc
     lynx
+    links
+    w3m
 
   Control Panel → Environmental Variables → &New
     HOME = %USERPROFILE%
