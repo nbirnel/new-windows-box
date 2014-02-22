@@ -39,6 +39,7 @@ cygwin:
     curl
     make
     bc
+    lynx
 
   Control Panel → Environmental Variables → &New
     HOME = %USERPROFILE%
