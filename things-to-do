@@ -11,6 +11,9 @@ windows explorer:
     - Use Sharing Wizard (Recommeneded)
     ✓ Always show icons, never thumbnails
 turn off autoplay for all: Control panel → AutoPlay 
+turn off filter keys hotkey:
+  Control Panel -> Ease of Access Center -> Set up Filter Keys
+  - Turn on Filter Keys when right SHIFT is pressed for 8 seconds
 disable thumbs - gpedit.msc
   user configuration → administrative templates → windows components →
     windows explorer
