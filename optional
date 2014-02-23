@@ -1,2 +1,7 @@
 gimp
   http://ftp.gimp.org/pub/gimp/v2.8/windows/gimp-2.8.10-setup.exe
+python
+  http://www.python.org/ftp/python/3.3.4/python-3.3.4.amd64.msi
+ruby
+  http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p353-x64.exe
+(or rails)
