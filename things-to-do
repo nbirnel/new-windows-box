@@ -65,6 +65,7 @@ get my github stuff:
     githubfetch $i
   done
 vim
+  start in %USERPROFILE%
   to add ruby:
   install ruby 2.0, *adding bin directory to your path*
   install vim
