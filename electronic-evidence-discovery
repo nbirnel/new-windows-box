@@ -7,4 +7,4 @@ githubfetch:
   csv-tools
   extract-dates
   permute
-
+pdftk (native, since cygwin version coredumps on large files)
