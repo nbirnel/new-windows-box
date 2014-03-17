@@ -4,4 +4,27 @@ python
   http://www.python.org/ftp/python/3.3.4/python-3.3.4.amd64.msi
 ruby
   http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.0.0-p353-x64.exe
-(or rails)
+  (or rails)
+sshd
+  from: http://cygwin.wikia.com/wiki/Sshd
+  cygwin: openssh, cygrunsrv
+  cygwin -> right click -> run as Administrator
+  ssh-host-config 
+  use defaults. Set CYGWIN=ntsec 
+  reboot or 
+    net start sshd
+    or 
+    cygrunsrv -S sshd
+  per user:
+    ssh-user-config
+
+  from:
+  http://superuser.com/questions/445237/cygwin-ssh-server-is-not-accepting-connections
+  if connections time out:
+  Control Panel -> Windows Firewall -> Allow another program ->
+    browse to /usr/sbin/sshd.exe
+    choose network location types (as appropriate) -> OK -> add -> OK
+
+
+
+
