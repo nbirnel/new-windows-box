@@ -45,6 +45,7 @@ cygwin:
     lynx
     links
     w3m
+    screen
 
   Control Panel → Environmental Variables → &New
     HOME = %USERPROFILE%
