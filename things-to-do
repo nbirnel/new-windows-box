@@ -46,9 +46,6 @@ cygwin:
     links
     w3m
 
-  dvtm -> libncursesw-devel, ncurses
-    git clone git://repo.or.cz/dvtm.git
-
   Control Panel → Environmental Variables → &New
     HOME = %USERPROFILE%
   # the next two should be run with -D flag if on a domain
