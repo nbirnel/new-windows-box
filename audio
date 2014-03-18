@@ -16,8 +16,16 @@ StudioFactory (backwards compatible successor to synfactory)
 praat ? 
 ZynAddSubFx
   http://downloads.sourceforge.net/project/zynaddsubfx/zynaddsubfx/2.2.0/Setup_ZynAddSubFX-2.2.0.exe
+hydrogen
+  cross-platform
 
 csound
+
+finale notepad
+  http://www.finalemusic.com/notepad/
+MuseScore
+  cross-platform
+  http://mscore.sourceforge.net/en/idx.php
 
 traverso: (appears to be a dead project as of 2010)
   http://traverso-daw.org/traverso-unstable-for-windows.html&d=Traverso-git-01-11-2010.exe
@@ -35,3 +43,8 @@ https://www.presonus.com/downloads/studioone/free/win64
 Wavosaur
 http://www.wavosaur.com/download/manual/Wavosaur-quick-start-guide-v1.0.2.0.zip
 http://www.wavosaur.com/download/files/Wavosaur.1.1.0.0-x64(en).zip
+
+trakAxPc
+free, not open source.
+http://www.trakax.com/software/pc
+
