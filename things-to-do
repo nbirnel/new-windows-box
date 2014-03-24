@@ -46,6 +46,7 @@ cygwin:
     links
     w3m
     screen
+    xmlstarlet
 
   Control Panel → Environmental Variables → &New
     HOME = %USERPROFILE%
