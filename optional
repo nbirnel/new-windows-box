@@ -24,3 +24,5 @@ sshd
   Control Panel -> Windows Firewall -> Allow another program ->
     browse to /usr/sbin/sshd.exe
     choose network location types (as appropriate) -> OK -> add -> OK
+clamav:
+  http://www.clamav.net/win32/ClamAVWindowsSetup.exe
