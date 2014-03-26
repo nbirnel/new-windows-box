@@ -47,6 +47,7 @@ cygwin:
     w3m
     screen
     xmlstarlet
+  chere -i -c -t mintty
 
   Control Panel → Environmental Variables → &New
     HOME = %USERPROFILE%
