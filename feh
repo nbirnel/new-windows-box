@@ -1,0 +1,26 @@
+wget http://feh.finalrewind.org/feh-2.10.tar.bz2
+tar xf feh-2.10.tar.bz2
+
+git clone https://github.com/cbane/giblib.git
+cd giblib && ./configure && make install
+
+
+cygwin: 
+  giblib - not in cygwin
+  cygport (to install giblib)
+  libpng (installed already)
+  libXt-devel
+  imlib2
+  libImlib2-devel 
+  libcurl4 (installed w/ curl)
+  libcurl-devel
+  libX11-devel (installed already)
+  libXinerama (installed already)
+  libXinerama-devel (installed already)
+  libexif12 (installed already)
+  libexif-devel
+  libjpeg8 (installed already)
+  jpeg?
+  ImageMagick (installed already)
+
+make curl=0 exif=1 stat64=1
