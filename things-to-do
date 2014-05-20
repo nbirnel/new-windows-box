@@ -77,6 +77,12 @@ vim
     http://wyw.dcweb.cn/download.asp?path=vim&file=gvim74.zip
 7zip
 autohotkey - http://ahkscript.org/download/ahk-install.exe
+AutoScriptWriter - 
+  wget http://www.autohotkey.com/download/AutoHotkey.zip
+  mkdir -p ~/src/ahk
+  mv AutoHotkey.zip ~/src/ahk
+  cd ~/src/ahk
+  unzip AutoHotkey.zip && chmod -R 755 AutoScriptWriter
 swap-esc-caps, alt-control (part of vikeys)
 synergy
 deja-vu fonts:
