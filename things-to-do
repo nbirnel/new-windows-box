@@ -38,9 +38,13 @@ cygwin:
     libiconv
     bvi
     git
+    git-completion
     wget
     curl
     make
+    auto-make
+    gcc
+    tmux
     bc
     lynx
     links
