@@ -21,6 +21,7 @@ disable thumbs - gpedit.msc
   logout? or reboot
   This stops creating them? - maybe only if we don't need them.
   FIXME this doesn't work. the icons bit above is what's important?
+disable system properties -> remote -> allow remote assistance
 
 cygwin:
   install:
@@ -29,6 +30,7 @@ cygwin:
     vim
     perl
     ruby
+    python
     chere
     pwgen
     ssh
