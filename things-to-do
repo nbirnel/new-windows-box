@@ -1,4 +1,7 @@
 vim: sw=2
+
+salt!
+
 firefox:
   File → Preferences → General 
    → When Firefox &starts: Show my windows and tabs from last time
